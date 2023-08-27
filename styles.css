@@ -1,0 +1,209 @@
+/* note: set the viewport height to 100vh or 100% and margin to 0px. 
+Dont forget to set the width. */
+
+body {
+  font-family: 'Roboto', 'Tahoma', sans-serif;
+  /* box-sizing: border-box; */
+
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  /* min-height: 100vh; */
+
+  min-height: 1912px;
+  margin: 0;
+}
+
+.container-one {
+  /* border: 1px solid salmon; */
+  background-color: #1F2937;
+  color: #f9faf8;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 240px;
+}
+
+.header-logo {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.head-link {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.subcontainer {
+  display: flex;
+  padding: 100px 240px;
+
+  /* FOR DEBUGGING */
+  /* border: 3px solid #348bfd;    */
+}
+
+.placeholder {
+  background-color: rgb(151, 140, 168);
+  width: 1000px;
+  min-height: 200px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  /* FOR DEBUGGING */
+  /* border: 3px solid #348bfd;  */
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.left {
+  min-height: 200px;
+  /* FOR DEBUGGING */
+  /* border: 3px solid #348bfd;    */
+}
+
+p {
+  padding: 0;
+  margin: 0px 0px 10px;
+}
+
+button.signup {
+  padding: 8px 30px;
+  background-color: #3882f6;
+  border: none;
+  color: #f4f5f8;
+  font-size: 18px;
+  /* text-align: center; */
+  font-weight: 900;
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* .container {
+  display: flex;
+  padding: 0px 80px;
+} */
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  text-align: center;
+  /* align-items: center; */
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 50px 0px;
+}
+
+.subtext {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  /* border: 1px solid salmon; */
+  margin-bottom: 100px;
+}
+
+.subtext-item {
+  width: 200px;
+  min-height: 200px;  /* min-height not height or max-height because margin-bottom was added from border-block class attribute*/
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.border-block {
+  box-sizing: border-box;
+  border: 3px solid #348bfd;
+  width: 200px;
+  height: 200px;
+  border-radius: 18px;
+  margin-bottom: 20px; /* the property added main factor was min-height of subtext-item class */
+}
+
+.quote-box{
+  background-color: #e5e7eb;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  padding: 100px 300px;
+  align-items: flex-end;
+  text-align: left;
+  justify-content: center;
+}
+
+.quote-line {
+  font-weight: lighter;
+  font-style: italic;
+}
+#saying .thor {
+  font-weight: bold;
+}
+
+.container-three {
+  text-align: center;
+  /* border: 1px solid saddlebrown; */
+
+  background-color: #3882f6;
+  /* box-sizing: border-box; */
+  border-radius: 8px;
+  padding: 50px 100px;
+  margin: 100px 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actionline {
+  font-weight: 900;
+  font-size: 24px;
+  margin: 0;
+}
+
+.call-action {
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+button.action {
+  background-color: #3882f6;
+  border-radius: 6px;
+  padding: 6px 30px;
+  border-style: solid;
+  font-size: 18px;
+  font-weight: 900;
+  border: 2px solid #f9faf8;
+  color: #F9FAF8;
+}
