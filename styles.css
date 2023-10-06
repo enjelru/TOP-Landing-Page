@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-.container-one {
+.container-fluid {
   /* border: 1px solid salmon; */
   background-color: #1F2937;
   color: #f9faf8;
